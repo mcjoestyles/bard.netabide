@@ -587,7 +587,7 @@ section {
 }
 
 .section-title {
-  text-align: center;
+  text-align: left;
   padding-bottom: 30px;
 }
 
@@ -595,17 +595,16 @@ section {
   font-size: 13px;
   letter-spacing: 1px;
   font-weight: 700;
-  padding: 8px 20px;
+  padding: 8px 0px;
   margin: 0;
-  background: #e7f1fd;
   color: #106eea;
   display: inline-block;
   text-transform: uppercase;
-  border-radius: 50px;
 }
 
 .section-title h3 {
   margin: 15px 0 0 0;
+  color: 000;
   font-size: 32px;
   font-weight: 700;
 }
@@ -615,13 +614,13 @@ section {
 }
 
 .section-title p {
-  margin: 15px auto 0 auto;
+  /*text-align: left;*/
   font-weight: 600;
 }
 
 @media (min-width: 1024px) {
   .section-title p {
-    width: 50%;
+    width: 100%;
   }
 }
 
